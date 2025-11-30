@@ -1,0 +1,10 @@
+.errorPageLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.errorPageLayout h1{
+   font-size: 8rem;
+}

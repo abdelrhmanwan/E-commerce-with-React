@@ -1,0 +1,64 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 250px;
+    margin-bottom: 20px !important;
+}
+
+.unit [type="email"] {
+    outline: none;
+}
+
+.footer-btn-links-to:hover {
+    cursor: pointer;
+}
+
+.social-icons{
+  font-size: 25px; 
+  gap:35px; 
+  transition: all 0.3s ease; 
+  cursor: pointer;
+}
+.fa-facebook:hover{
+  color: #1877F2; 
+  transform: scale(1.2);
+}
+.fa-twitter:hover{
+  color: #1DA1F2; 
+  transform: scale(1.2);
+}
+.fa-instagram:hover{
+  color: #E4405F; 
+  transform: scale(1.2);
+}
+.fa-linkedin:hover{
+  color: #0A66C2; 
+  transform: scale(1.2);
+}
+.fa-github:hover{
+  color: #000; 
+  transform: scale(1.2);
+}
+.fa-whatsapp:hover{
+  color:#3ca55a; 
+  transform: scale(1.2);
+}
+
+@media (min-width:1024px) {
+    .unit {
+        align-items: self-start;
+    }
+}

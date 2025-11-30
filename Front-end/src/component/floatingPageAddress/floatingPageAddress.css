@@ -1,0 +1,35 @@
+.floatingPageAddressLayout {
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    color: gray;
+    font-size: 14px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.brd {
+    border: 1px solid crimson;
+}
+
+.CurrentSourceStyle {
+    color: black;
+
+}
+
+@media (min-width:768px) {
+    .floatingPageAddressLayout {
+        display: flex;
+
+    }
+}
+
+@media (min-width:1024px) {
+    .floatingPageAddressLayout {
+        display: flex;
+        left: 11%;
+    }
+}

@@ -1,0 +1,155 @@
+.headerLayout {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.innerLayout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px !important;
+}
+
+.brd {
+    border: 1px solid rebeccapurple;
+}
+
+.logoLayout {
+    height: 100%;
+    width: 100px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder; */
+}
+
+.logoLayout img {
+    border-radius: 50% 0 50% 0;
+}
+
+.linksContainer {
+    display: none;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.linkWordStyle {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition-duration: 2s;
+    font-size: 18px;
+
+}
+
+.linkWordStyle:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: gray;
+}
+
+.linkWordStyle.active {
+    border-bottom: 2px solid black;
+    text-decoration-color: black;
+
+}
+
+.handContainer {
+    width: fit-content;
+    height: 100%;
+    margin-left: auto !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.relatedIdeaLayout {
+    height: 100%;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.searchBtnHolder {
+    display: none;
+    width: 185px;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid gainsboro;
+    background-color: #E9E7E7;
+}
+
+.searchBtnStyle {
+    /* display: none; */
+    padding-left: 7px !important;
+    width: 145px;
+    height: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #E9E7E7;
+    font-size: 20px;
+}
+
+.menuLayout {
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+}
+
+.logoLayout img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width:768px) {
+    .innerLayout {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .menuLayout {
+        display: none;
+
+    }
+
+    .handContainer {
+        margin: 0% !important;
+    }
+
+    .searchBtnHolder {
+        display: flex;
+    }
+
+    .linksContainer {
+        display: flex;
+    }
+}
+
+@media (min-width:1024px) {
+    .innerLayout {
+        width: 80%;
+    }
+}

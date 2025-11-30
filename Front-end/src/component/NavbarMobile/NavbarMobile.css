@@ -1,0 +1,40 @@
+.navMobileLayout {
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid gainsboro; */
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 5px; */
+}
+
+.linkUnitStyle {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+.linkUnitStyle:hover {
+    font-weight: bolder;
+    color: black;
+}
+
+@media (min-width:768px) {
+    .navMobileLayout {
+        display: none;
+        
+    }
+}

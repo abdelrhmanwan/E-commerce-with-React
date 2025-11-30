@@ -1,0 +1,244 @@
+
+/* main */
+
+.img-shoes {
+  max-width: 700px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* section 3 */
+
+.about-row-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-icons {
+  font-size: 3rem;
+  background-color: #000;           
+  color: #fff;                  
+  border: 10px solid #c0c0c0;    
+  border-radius: 50%;           
+  width: 90px;                 
+  height: 90px;                 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.services-icons:hover {
+  border-color: #c0c0c0;
+  color: #000;
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .about-row-4 {
+    position: relative;
+    left: 0%;
+    flex-direction: column;
+  }
+}
+
+
+/* section one two three */
+
+/* .cards{
+  margin: 0 50px !important;
+} */
+
+.cards h3 {
+  position: relative;
+  margin-left: 15px;
+}
+
+.cards h3::before {
+  content: "";
+  width: 12px;
+  height: 25px;
+  position: absolute;
+  background-color: red;
+  border-radius: 3px;
+  left: -30px;
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+
+.timer-margin {
+  margin-top: -20px;
+}
+
+.boxes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.bg-body-secondary {
+  height: 230px;
+}
+
+.center-img {
+  max-width: 100% !important;
+  height: auto !important;
+  padding: 30px;
+}
+
+.cardes-discount {
+  position: absolute;
+  background-color: #db4444;
+  padding: 5px 12px !important;
+  border-radius: 6px;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.card-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card-circle1 svg path {
+  fill: #db4444;
+  stroke: #db4444;
+}
+
+.card-circlev {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card-circlev2 svg g {
+  stroke: #00bbff;
+}
+
+.line {
+  width: 85%;
+  height: 1px;
+  background-color: #b1b1b1;
+  margin: 30px auto;
+}
+
+.bg-gradient {
+  background-color: #12e165aa;
+}
+
+.text-success {
+  color: #00ff66 !important;
+}
+
+.background-panner {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, #000 70%);
+  padding: 50px;
+  border-radius: 10px;
+  overflow: visible;
+}
+
+.panner .circle {
+  width: 70px;
+  height: 70px;
+}
+
+.grid-feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 30px;
+  padding: 2rem;
+  /* align-items: start; */
+}
+
+.background-img1 {
+  background-image: url(./image/playstation.png);
+  background-position: center; /* or 50% 50% */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+
+.background-img2 {
+  background-image: url(./image/controllerplay5.png);
+  background-position: 50% 75%; /* or 50% 50% */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+}
+
+.grid-feature1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.background-img3 {
+  background-image: url(./image/speakers.png);
+  background-position: center; /* or 50% 50% */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+}
+
+.background-img4 {
+  background-image: url(./image/headphone.png);
+  background-position: center; /* or 50% 50% */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+}
+
+.content {
+  width: 350px;
+  height: 100%;
+  min-height: 350px;
+}
+
+@media (max-width: 768px) {
+  .background-img1 {
+    height: 350px;
+  }
+}
