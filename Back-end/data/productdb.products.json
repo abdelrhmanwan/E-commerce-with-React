@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "692a8898c637e81d6a588b0c"
+  },
+  "title": "Real Madrid tee-shirt 2025",
+  "price": 250,
+  "image": "./image/g92-2-500x500 1.png",
+  "category": "electronic",
+  "inStock": true
+},
+{
+  "_id": {
+    "$oid": "692a8a7ec637e81d6a588b0e"
+  },
+  "title": "AK-900 Wired Keyboard\n",
+  "price": 157,
+  "image": "./image/keyboard.png",
+  "category": "electronic",
+  "inStock": true
+},
+{
+  "_id": {
+    "$oid": "692a8bd4c637e81d6a588b10"
+  },
+  "title": "Real Madrid Shirt 2026",
+  "price": 299.99,
+  "image": "./image/realmadrid.png",
+  "category": "sports",
+  "inStock": true
+},
+{
+  "_id": {
+    "$oid": "692a8d5dc637e81d6a588b12"
+  },
+  "title": "football 2023",
+  "price": 120,
+  "image": "./image/football.png",
+  "category": "sports",
+  "inStock": true
+},
+{
+  "_id": {
+    "$oid": "692a918bc637e81d6a588b14"
+  },
+  "title": "BASKET BALL",
+  "price": 80,
+  "image": "./image/basketball.png",
+  "category": "sports",
+  "inStock": true
+},
+{
+  "_id": {
+    "$oid": "692a91f4c637e81d6a588b16"
+  },
+  "title": "RGB liquid CPU Cooler",
+  "price": 2599,
+  "image": "./image/cpu.png",
+  "category": "electronic",
+  "inStock": true
+},
+{
+  "_id": {
+    "$oid": "692a93a1c637e81d6a588b18"
+  },
+  "title": "Squash Racket Carboflex ",
+  "price": 175,
+  "image": "./image/squash.png",
+  "category": "sports",
+  "inStock": true
+},
+{
+  "_id": {
+    "$oid": "692a948dc637e81d6a588b1c"
+  },
+  "title": "Blade Tennis Racket V8.0 2",
+  "price": 230,
+  "image": "./image/tennisroquett.png",
+  "category": "sports",
+  "inStock": true
+}]

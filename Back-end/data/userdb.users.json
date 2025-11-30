@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "692a743551cac6e7c2c16f71"
+  },
+  "email": "oys88777@gmail.com",
+  "password": "admin123",
+  "name": "omar yasser",
+  "role": "admin",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "692a754551cac6e7c2c16f73"
+  },
+  "email": "admin@example.com",
+  "password": "admin456",
+  "name": "abdelrhman waleed",
+  "role": "admin",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "692a772b51cac6e7c2c16f80"
+  },
+  "email": "admin@gmail.com",
+  "password": "admin789",
+  "name": "mohamed eid",
+  "role": "admin",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "692a776651cac6e7c2c16f82"
+  },
+  "email": "abdo@gmail.com",
+  "password": "admin568",
+  "name": "abdelrhman maged",
+  "role": "admin",
+  "isActive": true
+}]
